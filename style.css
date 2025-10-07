@@ -1,0 +1,144 @@
+body
+{
+    /*Initialisation*/
+    margin: 0;
+    padding: 0;
+    /*Apparence*/
+    background-color: rgb(143, 94, 94);
+    color: white;
+}
+*, ::before, ::after
+{
+    /*Box model*/
+    box-sizing: border-box;
+}
+.loaderContainer
+{
+    /*roortions*/
+    width: 100vw;
+    height: 100vh;
+    /*osition*/
+    z-index: 9999;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    /*Apparence*/
+    background-color: rgb(0, 0, 17);
+}
+.loader
+{
+    /*roortions*/
+    width: 9vh;
+    height: 9vh;
+    /*osition*/
+    z-index: 9999;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /*Apparence*/
+    /* background-color: black; */
+    /*Animations*/
+    animation: rotateLoader 2s linear infinite;
+}
+@keyframes rotateLoader
+{
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+.fonduOut
+{
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+.hidden
+{
+    display: none;
+}
+.fond
+{
+    /*roortions*/
+    width: 100vw;
+    height: 100vh;
+    /*osition*/
+    z-index: 0;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    /*Apparence*/
+    background-color: rgb(222, 222, 255);
+}
+.banniere1
+{
+    /*roortions*/
+    width: 100vw;
+    height: 25vh;
+    /*osition*/
+    z-index: 1;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    /*Apparence*/
+    background-color: rgb(0, 0, 51);
+}
+.banniere2
+{
+    /*roortions*/
+    width: 100vw;
+    height: 2vh;
+    /*osition*/
+    z-index: 2;
+    position: fixed;
+    left: 0px;
+    top: 25vh;
+    /*Apparence*/
+    background-color: rgb(128, 128, 255);
+}
+
+.icon
+{
+    /*roortions*/
+    width: 100px;
+    height: 100px;
+    /*osition*/
+    z-index: 3;
+    position: fixed;
+    left: 50%;
+    top: 4vh;
+    transform: translate(-50%, 0%);
+}
+.titre
+{
+    /*roortions*/
+    font-size: 22px;
+    /*osition*/
+    z-index: 4;
+    position: absolute;
+    left: 50%;
+    top: 17vh;
+    transform: translate(-50%, 0%);
+    /*Apparence*/
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: rgb(243, 242, 255);
+    text-align: center;
+}
+.message
+{
+    /*roortions*/
+    font-size: 18px;
+    /*osition*/
+    z-index: 4;
+    position: absolute;
+    left: 50%;
+    top: 27vh;
+    transform: translate(-50%, 0%);
+    /*Apparence*/
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
