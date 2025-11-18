@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="SVGRoot"
+   version="1.1"
+   viewBox="0 0 500 500"
+   height="500px"
+   width="500px">
+  <defs
+     id="defs10">
+    <linearGradient
+       id="linearGradient845">
+      <stop
+         id="stop841"
+         offset="0"
+         style="stop-color:#00ffff;stop-opacity:1" />
+      <stop
+         id="stop843"
+         offset="1"
+         style="stop-color:#0000ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="5"
+       x2="495"
+       y1="495"
+       x1="5"
+       id="linearGradient847"
+       xlink:href="#linearGradient845" />
+  </defs>
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient847);fill-opacity:1"
+       ry="145"
+       rx="145"
+       y="5"
+       x="5"
+       height="490"
+       width="490"
+       id="rect34" />
+    <path
+       transform="matrix(1.8331189,0.1844379,-0.1844379,1.8331189,-99.97813,-40.985846)"
+       d="m 250.71429,205.71428 c -41.18571,29.67142 -35.16833,29.06337 -81.4574,8.23121 -46.28907,-20.83216 -42.75379,-15.92498 -47.85714,-66.42857 -5.10336,-50.503587 -7.58546,-44.98836 33.60026,-74.659784 41.18571,-29.671428 35.16833,-29.063376 81.4574,-8.231216 46.28906,20.83216 42.75378,15.924982 47.85714,66.42857 5.10335,50.50359 7.58545,44.98836 -33.60026,74.65979 z"
+       id="path849"
+       style="fill:#ffffff" />
+  </g>
+</svg>

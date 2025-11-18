@@ -1,0 +1,41 @@
+
+<svg
+    class ="loader"
+   id="SVGRoot"
+   version="1.1"
+   viewBox="0 0 300 300"
+   height="300px"
+   width="300px">
+  <defs
+     id="defs851">
+    <linearGradient
+       id="linearGradient1413">
+      <stop
+         id="stop1409"
+         offset="0"
+         style="stop-color:#0075ff;stop-opacity:1" />
+      <stop
+         id="stop1411"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="150.00006"
+       x2="295"
+       y1="150.00006"
+       x1="5.0000048"
+       id="linearGradient1415"
+       xlink:href="#linearGradient1413" />
+  </defs>
+  <g
+     id="layer1">
+    <ellipse
+       ry="139.90617"
+       rx="139.90623"
+       cy="150.00006"
+       cx="150"
+       id="path864"
+       style="fill:none;stroke:url(#linearGradient1415);stroke-width:10.18752098;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
